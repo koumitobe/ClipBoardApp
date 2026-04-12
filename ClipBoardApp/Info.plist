@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Dockにアイコンを表示しない（メニューバー常駐アプリ） -->
+    <key>LSUIElement</key>
+    <true/>
+    <key>CFBundleName</key>
+    <string>ClipBoardApp</string>
+    <key>CFBundleDisplayName</key>
+    <string>ClipBoardApp</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.example.ClipBoardApp</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    <!-- Accessibility権限の利用説明（グローバルホットキー検知に必要） -->
+    <key>NSAccessibilityUsageDescription</key>
+    <string>キーボードショートカットの検知に使用します</string>
+</dict>
+</plist>

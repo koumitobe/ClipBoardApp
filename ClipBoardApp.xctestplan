@@ -1,0 +1,30 @@
+{
+  "configurations" : [
+    {
+      "id" : "239EDCD2-BD96-468E-A44A-9E7B08DE33AC",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "performanceAntipatternCheckerEnabled" : true,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:ClipBoardApp.xcodeproj",
+      "identifier" : "C7915F1FB7DB4C15B4BA003E9BB012A8",
+      "name" : "ClipBoardApp"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:ClipBoardApp.xcodeproj",
+        "identifier" : "B8A20D852F89D780003C3574",
+        "name" : "ClipBoardAppTests"
+      }
+    }
+  ],
+  "version" : 1
+}

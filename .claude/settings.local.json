@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xcode-select -p)",
+      "Bash(swift --version)",
+      "Bash(uuidgen)",
+      "Bash(xcodebuild -project ClipBoardApp.xcodeproj -scheme ClipBoardApp -configuration Debug build)",
+      "Bash(xcrun swift:*)",
+      "Bash(xcodebuild -project ClipBoardApp.xcodeproj -scheme ClipBoardApp -configuration Debug -showBuildSettings)",
+      "Bash(xcodebuild -project /Users/mitobekou/AIdev/ClipBoardApp/ClipBoardApp.xcodeproj -scheme ClipBoardApp -configuration Release -derivedDataPath /tmp/ClipBoardApp_build build)"
+    ]
+  }
+}
